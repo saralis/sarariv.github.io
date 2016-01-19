@@ -1,0 +1,14 @@
+.blog-link {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.link {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  height: 20px;
+  width: 200px;
+  padding: 5px 10px 5px 10px;
+}
