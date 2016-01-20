@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.back {
+  font-size: 12px;
+}
+
 .link {
   display: block;
   margin: auto;
@@ -30,15 +34,17 @@ h3 {
   font-family: monospace;
   border: none;
   color: #cc6666;
-}
-
-li {
-  display: block;
-  text-align: left;
   padding: none;
-  position: static;
 }
 
+.pos {
+  text-align: left;
+  display: block;
+  font-family: monospace;
+  border: none;
+  color: #cc6666;
+  padding: none;
+}
 
 .absolute {
   position: absolute;
