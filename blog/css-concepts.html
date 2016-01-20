@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Positioning in CSS</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"/>
+  </head>
+  <body>
+    <header>
+      <h1>CSS Layout: position</h1>
+      <h4>January 18, 2016</h4>
+    </header>
+    <main>
+      <section>
+        <h2>The <span class="position">position</span> Property</h2>
+           <p><span class="welcome">T</span>he <span class="position">position</span> property specifies the type of positioning method used for an element. There are four types of <span class="position">position</span>s:</p>
+        <ul>
+          <li class="position">static</li>
+          <li class="position">absolute</li>
+          <li class="position">relative</li>
+          <li class="position">fixed</li>
+        </ul>
+        <p>Let's have a better look at these values!</p>
+      </section>
+
+      <section class="value">
+        <div class="static">
+        <h3 class="position">static</h3>
+          <p><span class="position">static</span> is the default value an element is set to if a positioning type is not specified.This value simply places the element where it would normally go on the page. If you don't tell an element how to position itself, it just plunks itself down in the document.</p>
+        </div>
+      </section>
+
+      <section class="value">
+        <div class="relative">
+        <h3 class="position">relative</h3>
+          <p><span class="position">relative</span> positioning tells the element to move relative to where it would have landed if it just had the default <span class="position">static</span> positioning.
+          If you give an element relative positioning and tell it to have a margin-top of 20px, it moves down twenty pixels from where it's <span class="position">static</span> positioing.</p>
+        </div>
+      </section>
+
+      <section class="value">
+        <div class="absolute">
+        <h3 class="position">absolute</h3>
+          <p><span class="position">absolute</span> positions elements in relation to the first parent element it has that does NOT have <span class="position">position:static</span>. If there's no such element, the element with <span class="position">position:absolute</span> gets positioned relative to <span class="position">html</span>.</p>
+        </div>
+      </section>
+
+      <section class="value">
+        <div class="fixed">
+        <h3 class="position">fixed</h3>
+          <p><span class="position">fixed</span> positioning anchors (or "glues") an element to the browser window. If you scroll up and down, the fixed element stays put even as other elements scroll past.</p>
+        </div>
+      </section>
+
+    </main>
+  </body>
+</html>
