@@ -10,6 +10,12 @@ h1 {
   font-family: impact;
 }
 
+h3 {
+   color: #cc6666;
+   font-family: Arial;
+   font-variant: small-caps;
+}
+
 h4 {
   color: #cc6666;
   font-family: cursive;
