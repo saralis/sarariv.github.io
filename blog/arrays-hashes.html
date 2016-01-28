@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arrays and Hashes</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"/>
+  </head>
+  <body>
+    <header>
+      <h1>Arrays and Hashes: An Introduction</h1>
+      <h4>January 28, 2016</h4>
+      <li> <a href="http://sarariv.github.io/blog/index.html">back</a>
+    </header>
+
+    <section>
+      <h3>What is an array? What is a hash?</h3>
+      <p><span class="welcome">Hashes and arrays</span> both store data. In an array, the slots are lined up in a row, and each one is numbered (starting from zero). Ex: </p>
+      <p>Syntax<br><br>
+
+        # Array literal notation<br>
+        variable = [item1, item2, ..., itemN]<br><br>
+
+        Example<br><br>
+        seasons = ['winter', 'spring', 'summer', 'fall']</p>
+
+      <p>In a hash, the slots are not in a row (they are just thrown in together), and you can use any object to refer to a slot, not just a number. Ex:  </p>
+      <p>Syntax<br><br>
+
+        # Hash literal notation<br><br>
+        hash_ex = {<br>
+          key1: value1,<br>
+          key2: value2<br>
+          }<br>
+        <br>
+        Example<br><br>
+        hash_pets = {<br>
+          name: "Bob",<br>
+          age:  91<br>
+          }<br>
+          => { :name => "Artur", :age => 21}
+        </p>
+
+    </section>
+      <h3>When do we use arrays and hashes?</h3>
+      <p>Arrays are best used when you are working with an ordered list of items. Every slot in the list acts like a variable: you can see what object a particular slot points to, and you can make it point to a different object. You can make an array by using square brackets [] In Ruby, As mentioned earlier, the first value in an array has index 0.</p>
+
+      <p>It is good to use hashes when you have a bunch of things you want to keep track of but they do note really fit into an ordered list. You can make an array by using brackets {}. </p>
+    <section>
+    </section>
+  </body>
+</html>
