@@ -4,6 +4,7 @@
     <title>Ruby Classes</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"/>
   </head>
 
   <body>
@@ -14,6 +15,51 @@
     </header>
     <main>
     <section>
-      <p><span class="welcome">H</span>ave you ever worked on a project or wrote a paper and at some point something went wrong? Either information was deleted by accident, you had a change of heart on the wording or approach used previously and wished you could go back to how it used to be. Wouldn’t it be great if you could rewind? This is where Version control would be mighty handy!
+      <p><span class="welcome">First and foremost</span>, we must set the stage in stating that Ruby is an object-oriented language.
       </p>
     </section>
+
+    <section>
+      <p>A class is made up of a collection of variables and acts as a blueprint from which individual objects are created. Class names start with an uppercase letter, while method names start with a lowercase letter (see example below).
+      </p>
+    </section>
+
+    <section>
+    <span class="position">
+      class Movies<br><br>
+        def initialize(movie_title, movie_time)<br>
+           @movie_title = movie_title<br>
+           @move_time = time<br>
+        end<br><br>
+        def announcement<br>
+          puts "The next showing of #{@movie_title} <br>will be at {@movie_time}. Hurry and <br>get your ticket!"<br>
+        end<br>
+      end<br>
+    </span>
+    </section>
+
+      <section>
+      <p>initialize is a special method in Ruby programs and the first method we start with when working with classes. When you call Movies.new to create a new Movie object or instance, Ruby creates an uninitialized object and then calls that object's initialize method, passing in any parameters that were passed to new. This gives you a chance to write code that sets up your object's state/behavior.</p>
+      </section>
+
+     <section>
+     <p>For class Movies, the initialize method takes two parameters. These parameters are local variables within the method, so they follow the local variable naming convention of starting with a lowercase letter.
+    </p>
+    </section>
+
+      <section><p>Just a quick reminder about variables, Ruby provides 4 types:</p>
+        <ol>
+          <li>Local Variables: Local variables are the variables that are defined in a method. Local variables are not available outside the method. They begin with a lowercase letter or _.</li>
+          <li>Instance Variables: Instance variables are available across methods for any particular instance or object. That means that instance variables change from object to object. Instance variables are preceded by the at sign (@) followed by the variable name.</li>
+          <li>Class Variables: Class variables are available across different objects. A class variable belongs to the class and is a characteristic of a class. They are preceded by the sign @@ and are followed by the variable name.</li>
+          <li>Global Variables: Class variables are not available across classes. If you want to have a single variable, which is available across classes, you need to define a global variable. The global variables are always preceded by the dollar sign ($).</li>
+        </ol>
+      </section>
+
+      <section>
+      <p>Going back to our example, the class Movies now has an established initialize method that accepts two parameters (movie_title and movie_time). We can also create another method that will allow us to announce the next showing of a movie. Each method in a class starts with the keyword def followed by the method name. As a best practice, the method name is typically lowercase and utilizes underscores (_) to separate words.
+      </p>
+      </section>
+
+  </body>
+</html>
