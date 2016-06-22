@@ -58,6 +58,12 @@ a:hover {
   min-height: 400px;
 }
 
+.project-wine {
+  background-image: url("../imgs/wine.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
 .contact-container {
   text-align: center;
   min-height: 150px;
