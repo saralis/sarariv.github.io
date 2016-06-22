@@ -84,3 +84,14 @@ footer {
   font-size: 16px;
 }
 
+.skills-container {
+  font-size: 15px;
+}
+
+.project-title {
+  color: rgb(0, 153, 153);
+}
+
+.project-description {
+  font-size: 15px;
+}
